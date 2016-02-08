@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<title>Kelly Mersereau</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
-<header>
-	<span id="top">
-		<h1 id="topname"> Kelly Mersereau </h1>
-	</span>
-	<span id="links">
-			<a href="index.html" class="links1"> About</a>
-			<a href="portfolio.html" class="links"> Portfolio</a>
-			<a href="contact.html" class="links"> Contact </a>	
-	</span>
-</header>
 <body>
-
+	<div class="wrapper">
+		<header id="header">
+			<div id="name">
+				<h1> Kelly Mersereau </h1>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li class="link1"><a href="index.html">About</a></li>
+					<li class="link"><a href="portfolio.html">Portfolio</a></li>
+					<li class="link"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div id="content">
+		<section id="main">
+			<h2> Portfolio </h2>
+			<div></div>
+			<form action="MAILTO:kelly.mersereau@gmail.com" method="post" enctype="text/plain">
+				Name 
+				<br>
+				<input type="text" name="name" value="John Smith"> 
+				<br>
+				E-mail 
+				<br>
+				<input type="text" name="e-mail" value="johnsmith@gmail.com"> 
+				<br>
+				Message 
+				<br>
+				<input type="text" name="message" value=" "> 
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+		<aside id="sidebar">
+			<h3>Connect with Me</h3>
+			<div></div>
+			<div class="connectlinks">
+				<a href="https://github.com/kellymersereau"><img src="assets/images/github.png"></a>
+				<a href="https://www.linkedin.com/in/kellymersereau"><img src="assets/images/linkedin.png"></a>
+				<a href="http://stackoverflow.com/users/5831702/kelly-mersereau"><img src="assets/images/stackoverflow.png"></a>
+			</div>
+		</aside>
+	<footer>
+		<div id="footer">
+			<div class="teal-line">
+			</div>
+				<p class="copyright">Copyright 2016 Kelly Mersereau
+				</p>
+		</div>
+	</footer>
 </body>
+
 </html>
