@@ -33,7 +33,7 @@ footer, .push {
 
 .container {
 	width: 100%;
-	max-width: 980px;
+	max-width: 960px;
 	margin: 0 auto;
 	clear: both;
 }
@@ -250,38 +250,24 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980) {
-	.container {
-    	padding: 80px;
-    }
-    .main-section {
-    	float: left;
-    	max-width: 980px;
-    	margin-bottom: 50px;
-    	
-    }
-    #logo {
-    	margin-left: 100px;
-    	text-align: center;
-    }
-    nav a {
-    	margin-right: 100px;
-    }
-    nav a:first-child {
-    	padding-left: 0 none;
-    }
-    .auth-image {
-	width: auto;
-	height: auto;
+	#logo {
+		margin-left: auto;
+		float: left;
 	}
-    .work {
-	width: 310px;
-	overflow: auto;
-	float: left;
-	margin: 20px 0 10px;
+	nav {
+		float: right;
+		margin-right: 80px;
 	}
-    .work h3 {
-    	line-height: 30px;
-    }
+	nav a {
+		margin-left: 50px;
+	}
+	.sidebar {
+		padding: 50 80 50 50;
+	}
+	#main-section {
+		margin: 0 0 80px 0;
+		max-width: 600px;
+	}
 }
 
 @media screen and (max-width: 768px) {
