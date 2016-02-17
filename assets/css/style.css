@@ -75,7 +75,7 @@ h3 {
 	width: 100%
 }
 #logo {
-	width: 280px;
+	width: 310px;
 	height: 90px;
 	background: #4aaaa5;
 	float: left;
@@ -115,7 +115,7 @@ a:visited {
 }
 a:hover {
 	color: #4aaaa5;
-	font-size: 16px;
+	font-size: 12px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
