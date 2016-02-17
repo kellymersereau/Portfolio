@@ -1,64 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kelly Mersereau</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio | Kelly Mersereau</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class="wrapper">
-		<header id="header">
-			<div id="name">
-				<h1> Kelly Mersereau </h1>
-			</div>
-			<nav id="nav">
-				<ul>
-					<li class="link1"><a href="index.html">About</a></li>
-					<li class="link"><a href="portfolio.html">Portfolio</a></li>
-					<li class="link"><a href="contact.html">Contact</a></li>
-				</ul>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo"> Kelly Mersereau </a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
 			</nav>
-		</header>
-		<div id="content">
-			<section id="main">
-				<h2 id="port"> Portfolio </h2>
-					<div id="line-break1"></div>
-					<div>
-						<div class="category_left"><span class="phototitles1">Hangman</span><img src="assets/images/cats.jpg" alt="picture of cat">
-							
-						</div>
-						<div class="category_right"><span class="phototitles"> RPG Game</span><img src="assets/images/rain.jpg" alt="picture of rain">
-							
-						</div>
-						<div class="category_left"><span class="phototitles1"> Trivia Game</span><img src="assets/images/sparkle.jpg" alt="picture of sparkles">
-							
-						</div>
-						<div class="category_right"><span class="phototitles"> Rutgers Info Widget</span><img src="assets/images/iphone.jpg" alt="picture of iphone">
-							
-						</div>
-						<div class="category_left"><span class="phototitles1"> Rock Paper Scissors</span><img src="assets/images/colors.jpg" alt="picture of colors">
-							
-						</div>
-					</div>
-			</section>
-			<aside id="sidebar">
-				<h2 id="connect">Connect with Me</h2>
-				<div class="line-break2"></div>
-				<div class="icons">
-					<a href="https://github.com/kellymersereau" id="icon1"><img src="assets/images/github.png" alt="Github logo"></a>
-					<a href="https://www.linkedin.com/in/kellymersereau" id="icon2"><img src="assets/images/linkedin.png" alt="LinkedIn Logo"></a>
-					<a href="http://stackoverflow.com/users/5831702/kelly-mersereau" id="icon3"><img src="assets/images/stackoverflow.png" alt="Stackoverflow logo"></a>
-				</div>
-			</aside>
 		</div>
-		<div class="push"></div>
+	</header>
+
+	<div
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1> Portfolio </h1>
+				
+			<div class="work">
+				<img src="assets/images/cats.jpg" alt="hangman">
+
+					<h3>Hangman</h3>
+			</div>
+						
+			<div class="work">
+				<img src="assets/images/rain.jpg" alt="RPGame">
+
+					<h3>RPG Game</h3>
+			</div>	
+
+			<div class="work">
+				<img src="assets/images/sparkle.jpg" alt="Trivia Game">
+
+					<h3>Trivia Game</h3>
+			</div>	
+
+			<div class="work">
+				<img src="assets/images/iphone.jpg" alt="Rutgers Info Widget">
+
+					<h3>Rutgers Info Widget</h3>
+			</div>	
+
+			<div class="work">
+				<img src="assets/images/colors.jpg" alt="Rock Paper Scissors">
+
+					<h3>Rock Paper Scissors</h3>
+			</div>				
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+				
+				<a href="https://github.com/kellymersereau">
+					<img src="assets/images/github.png" class="social" alt="Github logo">
+				</a>
+				<a href="https://www.linkedin.com/in/kellymersereau">
+					<img src="assets/images/linkedin.png" class="social" alt="LinkedIn Logo">
+				</a>
+				<a href="http://stackoverflow.com/users/5831702/kelly-mersereau">
+					<img src="assets/images/stackoverflow.png" class="social" alt="Stackoverflow logo">
+				</a>
+			</div>
+		</section>
+	</div>
+
 	<footer>
-		<div id="footer">
-			<p class="copyright"> © Copyright 2016 Kelly Mersereau
-			</p>
+		<div class="container">
+			&copy; Copyright 2016 Kelly Mersereau
 		</div>
 	</footer>
-	</div>
 </body>
-
 </html>
